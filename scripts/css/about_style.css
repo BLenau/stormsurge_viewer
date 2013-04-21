@@ -1,0 +1,100 @@
+.content-left-narrow {
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 175px;
+  float: left;
+}
+
+.content-right-wide {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 765px;
+  float: right;
+}
+
+/** Developer Bios **/                                                          
+.developer {                                                                    
+  display: table-cell;                                                          
+  margin-top: 15px;                                                             
+  width: 1000px;                                                                 
+  min-height: 140px;                                                            
+  vertical-align: middle;                                                       
+}                                                                               
+                                                                                
+.developer p {                                                                  
+  float: left;                                                                  
+  width: 825px;                                                                 
+  padding-top: 25px;                                                            
+}                                                                               
+                                                                                
+.dev-pic {                                                                      
+  width: 120px;                                                                 
+  height: 120px;                                                                
+  float: left;                                                                  
+  display: table-cell;                                                          
+  margin-right: 15px;                                                           
+  margin-top: 10px;                                                             
+  margin-bottom: 10px;                                                          
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  behavior: url(scripts/pie/PIE.htc);
+}                                                                               
+
+.logo {                                                                      
+  width: 200px;                                                                 
+  height: 115px;                                                                
+  margin-top: -5px;
+  margin-left: 0px;
+  float: left;                                                                  
+  display: table-cell;                                                          
+}
+
+.noaa_logo {
+  width: 115px;                                                                 
+  height: 115px;                                                                
+  margin-top: -5px;
+  margin-left: -6px;
+  float: left;                                                                  
+  display: table-cell;                                                          
+}
+
+#psds-logo {
+  background: url("../../images/psds_about.jpg");
+}
+
+#noaa-logo {
+  background: url("../../images/noaa-logo.jpg");
+}
+                                                                                
+#cristina-dev-pic {                                                             
+  background: url("../../images/devs/cristina.jpg");                            
+}                                                                               
+                                                                                
+#russell-dev-pic {                                                              
+  background: url("../../images/devs/russell.jpg");                             
+}                                                                               
+                                                                                
+#brian-dev-pic {                                                                
+  background: url("../../images/devs/brian.jpg");                               
+}                                                                               
+                                                                                
+#holliday-dev-pic {                                                             
+  background: url("../../images/devs/holliday.jpg");                            
+}                                                       
+
+#katie-dev-pic {                                                                
+  background: url("../../images/devs/katie.jpg");                               
+}                                                                               
+                                                                                
+#rob-dev-pic {                                                                  
+  background: url("../../images/devs/rob.jpg");                                 
+}                                                                               
+                                                                                
+#brad-dev-pic {                                                                 
+  background: url("../../images/devs/brad.jpg");                                
+}                                                                               
+                                                                                
+#chris-dev-pic {                                                                
+  background: url("../../images/devs/chris.jpg");                            
+}                                         

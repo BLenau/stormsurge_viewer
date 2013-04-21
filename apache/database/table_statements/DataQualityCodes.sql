@@ -1,0 +1,3 @@
+INSERT INTO DataQualityCodes (ID, QualityCode, QualityCodeLong, Description) VALUES (1,"H","High","High quality water mark; Calculated between 4-5 points for DQC parameters (Hurricane Year, Reported Quality,and Inside/Outside mark)");
+INSERT INTO DataQualityCodes (ID, QualityCode, QualityCodeLong, Description) VALUES (3,"L","Low","Low quality water mark; Calculated between 0-1 points for DQC parameters (Hurricane Year, Reported Quality,and Inside/Outside mark)");
+INSERT INTO DataQualityCodes (ID, QualityCode, QualityCodeLong, Description) VALUES (2,"M","Medium","Medium quality water mark; Calculated between 2-3 points for DQC parameters (Hurricane Year, Reported Quality,and Inside/Outside mark)");

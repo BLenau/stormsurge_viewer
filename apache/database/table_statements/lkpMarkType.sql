@@ -1,0 +1,13 @@
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES (NULL,1);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Tide gage",2);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Debris",3);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Seed",4);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Wash",5);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Drift",6);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Water",7);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Mud",8);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Estimate",9);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Sand",10);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Stain",11);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Buoy",12);
+INSERT INTO lkpMarkType (MarkType, MarkTypeID) VALUES ("Wave",13);

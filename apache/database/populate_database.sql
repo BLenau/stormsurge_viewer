@@ -1,0 +1,13 @@
+\. ../apache/database/schema/database_schema.sql
+\. ../apache/database/table_statements/HurricaneLandfall.sql
+\. ../apache/database/table_statements/HurricanePhotos.sql
+\. ../apache/database/table_statements/Hurricane.sql
+\. ../apache/database/table_statements/HurricaneTrackPoints.sql
+\. ../apache/database/table_statements/lkpMarkType.sql
+\. ../apache/database/table_statements/lkpRefHurricane.sql
+\. ../apache/database/table_statements/lkpVDatum.sql
+\. ../apache/database/table_statements/lkpWLMeasType.sql
+\. ../apache/database/table_statements/Source_References.sql
+\. ../apache/database/table_statements/WaterMarkPhotos.sql
+\. ../apache/database/table_statements/WaterMarks.sql
+\. ../apache/database/insert_wmphotos.sql

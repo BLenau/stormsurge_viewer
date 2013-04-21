@@ -1,0 +1,1 @@
+INSERT INTO Max_WindPress_LF2 (HID, MaxOfWind_WMO, MaxOfPres_WMO, LSFlag_LF2, HLFID) VALUES (6,140,990,"S",27);

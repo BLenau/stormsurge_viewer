@@ -1,0 +1,11 @@
+\. ../scripts/database_scripts/schema/database_schema.sql
+\. ../scripts/database_scripts/insert_statements/HurricaneLandfall.sql
+\. ../scripts/database_scripts/insert_statements/HurricanePhotos.sql
+\. ../scripts/database_scripts/insert_statements/Hurricane.sql
+\. ../scripts/database_scripts/insert_statements/HurricaneTrackPoints.sql
+\. ../scripts/database_scripts/insert_statements/lkpMarkType.sql
+\. ../scripts/database_scripts/insert_statements/lkpRefHurricane.sql
+\. ../scripts/database_scripts/insert_statements/WaterMarkPhotos.sql
+\. ../scripts/database_scripts/insert_statements/WaterMarks.sql
+\. ../scripts/database_scripts/insert_statements/lkpWLMeasType.sql
+\. ../scripts/database_scripts/insert_wmphotos.sql

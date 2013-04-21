@@ -1,0 +1,288 @@
+/* individual tag styles */                                                     
+                                                                                
+html, body, h1, h2, h3, h4 {                                                    
+  margin: 0;                                                                    
+  padding: 0;                                                                   
+}                                                                               
+                                                                                
+a {                                                                             
+  color: #464544;                                                               
+}                                                                               
+                                                                                
+a:hover {                                                                       
+  color: #6666cc;                                                               
+}                                                                               
+                                                                                
+p {                                                                             
+  margin: 0px;                                                                  
+}                                                                               
+                                                                                
+.clear {                                                                        
+  clear: both;                                                                  
+}                                                                               
+                                                                                
+body {                                                                          
+  text-align:center;                                                            
+  margin:0 auto;                                                                
+  background: #80c2d0; /* For non-css3 browsers */                              
+  background-attachment:fixed;                                                  
+  /* For IE */                                                                  
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#80c2d0',  
+                                                     endColorstr='#053838')";   
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,       
+                   startColorstr='#80c2d0', endColorstr='#053838')";            
+                                                                                
+  /* For Safari 4+, Chrome 1+ */                                                
+  background-image: -webkit-gradient(                                           
+    radial,                                                                     
+    left top,                                                                   
+    right bottom,                                                               
+    color-stop(0.39, #80c2d0),                                                  
+    color-stop(0.81, #053838)                                                   
+  );                                      
+
+  /* For Safari 5.1+, Chrome 10+ */                                             
+  background-image: -webkit-radial-gradient(                                    
+    left top,                                                                   
+    #80c2d0 39%,                                                                
+    #053838 81%                                                                 
+  );                                                                            
+                                                                                
+  /* For firefox 3.6+ */                                                        
+  background-image:  -moz-radial-gradient(                                      
+    left top,                                                                   
+    #80c2d0 39%,                                                                
+    #053838 81%                                                                 
+  );                                                                            
+                                                                                
+  font: 14px "Times New Roman", Times, serif;                                        
+}                                                                               
+
+table {
+  font: 14px "Times New Roman", Times, serif;                                        
+  font-variant: small-caps;
+}
+                                                                                
+/** body **/                                                                    
+                                                                                
+.body-container {                                                               
+  background-color: white;                                                      
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 10px;                                                          
+  position: relative;
+  behavior: url(scripts/pie/PIE.htc);
+}                                                                               
+                                                                                
+/*
+.body-container img {                                                           
+  border-style: solid;                                                          
+  border-color: #80c2d0;                                                        
+  border-width: 3px;                                                            
+  border-radius: 5px;                                                           
+  position: relative;
+  behavior: url(scripts/pie/PIE.htc);
+}                                                                               
+*/
+                                                                                
+.drop-shadow {                                                                  
+  box-shadow: 5px 5px 5px #113333;                                              
+  position: relative;
+  behavior: url(scripts/pie/PIE.htc);
+}                                                                      
+
+#outer {                                                                        
+  text-align:left;                                                              
+  margin: auto;                                                                 
+  width: 1002px;                                                                 
+  font: 12px "Arial" arial, sans-serif;                                         
+  padding-bottom: 20px;                                                         
+  padding-top: 20px;                                                            
+  position: relative;
+  top: 20px;
+  behavior: url(scripts/pie/PIE.htc);
+}                                         
+
+/** content **/                                                                 
+                                                                                
+#content {                                                                      
+  margin-left: 10px;                                                            
+  margin-right: 10px;                                                           
+  font: 14px "Arial" arial, sans-serif;                                         
+  position: relative;
+  behavior: url(scripts/pie/PIE.htc);
+}                                                                               
+                                                                                
+.content-left {
+  margin-left: 10px;
+  width: 600px;
+  float: left;
+}
+
+.content-right {
+  margin-top: -20px;
+  margin-right: 10px;
+  width: 200px;
+  float: right;
+}
+
+#content p {                                                                    
+  margin-bottom: 15px;                                                          
+}                          
+
+/** logo **/                                                                    
+                                                                                
+#logo {                                                                         
+  width: 992px;
+  height: 120px;
+  margin-bottom: -25px;
+  margin-left: 0px;
+  margin-top: -20px;
+  position: relative;
+  z-index: -1;
+  border: 5px solid #ffffff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.psds-logo {
+  background: url("../../images/psds_index_logo.jpg");
+  width: 120px;
+  height: 75px;
+  float: left;
+  display: table-cell;
+  margin-right: 15px;                                                           
+  margin-top: 20px;
+  position: relative;
+  right: -45px;
+}
+
+.wcu-logo {
+  background: url("../../images/wcu_index_logo.jpg");
+  width: 130px;
+  height: 65px;
+  float: left;
+  display: table-cell;
+  margin-right: 15px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.facebook-logo {
+  background: url("../../images/facebook.png");
+  width: 60px;
+  height: 60px;
+  float: left;
+  display: table-cell;
+  margin-right: 15px;
+  margin-top: 20px;
+  position: relative;
+}
+
+/*
+.how-to-use {
+  background: url("../../images/how_to.png");
+  width: 130px;
+  height: 23px;
+  float: left;
+  display: table-cell;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+*/
+
+.how-to-use {
+  background: url("../../images/how_to_button.png");
+  width: 152px;
+  height: 30px;
+  position: relative;
+  float: right;
+  margin-top: 30px;
+}
+
+.definitions {
+  background: url("../../images/definitions.png");
+  width: 152px;
+  height: 30px;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+}
+
+/** nav **/                                                                     
+                                                                                
+#nav {
+  height: 10px;
+  position: relative;
+  behavior: url(scripts/pie/PIE.htc);
+}
+
+#nav li {
+  list-style: none;                                                             
+  width: 140px;                                                                 
+  float: left;                                                                  
+  background-color: white;
+  opacity: .55;                                                                 
+  -webkit-border-top-left-radius: 20px;                                         
+  -webkit-border-top-right-radius: 5px;                                         
+  -moz-border-top-left-radius: 20px;                                            
+  -moz-border-top-right-radius: 5px;                                            
+  border-top-left-radius: 20px;                                                 
+  border-top-right-radius: 5px;                                                 
+  height: 20px;                                                                 
+  padding-top: 4px;                                                             
+  font: 12px arial, sans-serif;                                                 
+  margin-left: 2px;                                                             
+  margin-top: -20px;                                                            
+  text-align: center;                                                           
+  text-transform: uppercase;                                                    
+  padding-right: 10px;                                                          
+  padding-left: 10px;                                                           
+  position: relative;                                                           
+  top: 7px;
+  border-radius: 20px 5px 0px 0px;                                                           
+  behavior: url(scripts/pie/PIE.htc);
+}                                                                               
+                                                                                
+#nav li.active {                                                                
+  opacity: 1;                                                                   
+}                                                                               
+                                                                                
+#nav li:hover {                                                                 
+  opacity: 1;                                                                   
+}                                                                               
+                                                                                
+#nav a {                                                                        
+  color: #000;                                                                  
+  text-decoration: none;                                                        
+  font-weight: bold;                                                            
+}                                           
+
+/** page title **/                                                              
+                                                                                
+.section-title{                                                                 
+  padding-top: 15px;                                                            
+  padding-bottom: 15px;                                                         
+}                                   
+
+.section-divider { 
+  border: 0px;
+  height: 3px; 
+  width: 1002px; 
+  /* Mozilla */ 
+  background: -moz-linear-gradient(left, #80c2d0, #053838);
+  /* Webkid */         
+  background: -webkit-gradient(linear, left top, right top, from(#80c2d0),
+                               to(#053838));
+  /* IE */                                  
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      gradientType=1, startColorstr=#80c2d0, endColorstr=#053838); 
+  margin-bottom: 25px;
+  margin-left: -10px; 
+} 
+
+.construction {
+  font: 14px "Arial" arial, sans-serif;                                         
+  float: right;
+  position: relative;
+  top: -50px;
+}

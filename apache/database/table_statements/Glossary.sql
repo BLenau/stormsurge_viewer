@@ -1,0 +1,13 @@
+INSERT INTO Glossary (ID, Term, Definition) VALUES (1,"Storm surge","An offshore rise of water associated with a low pressure weather system, typically a hurricane.  Storm surge refers to the water level after astronomical tide has been calculated and removed.");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (2,"Storm tide","A storm tide is the combination of storm surge and the normal astronomical tide; value represents the water level rise including the astronomical tide.");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (6,NULL,NULL);
+INSERT INTO Glossary (ID, Term, Definition) VALUES (8,"NOAA","National Oceanic and Atmospheric Administration");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (11,"MSL","Mean Sea Level; MSL is defined as the zero elevation for a local area.");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (10,"USGS","United States Geological Survey");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (9,"USACE","United States Army Corps of Engineers");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (4,"Storm Landfall/Calculated Landfall Point","IBTrACS hurricane track point just prior to landfall; original dataset records every 6hrs and therefore the datapoint just before, but prior to landfall is referred to here as landfall");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (5,"Saffir-Simpson Scale","A classification used for some Western Hemisphere tropical cyclones that exceed the intensities of tropical depressions and tropical storms. The scale divides hurricanes into five categories distinguished by the intensities of their sustained winds.");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (7,"Tide/Astronomical Tide","An equilibrium tide due to attractions of the sun and moon.   Astronomical tide does not include weather related effects on the tide.");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (12,"NGVD/NGVD 1929","National Geodetic Vertical Datum of 1929; vertical control datum established for vertical control in the United States by the general adjustment of 1929");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (13,"NAVD 88","North American Vertical Datum of 1988; is the vertical control datum established in 1991 by the minimum-constraint adjustment of the Canadian-Mexican-U.S. leveling observations.");
+INSERT INTO Glossary (ID, Term, Definition) VALUES (3,"High water mark","The highest level reached by a body of water that has been maintained for a sufficient period of time to leave evidence on the landscape; includes astronomical tide at the time.");

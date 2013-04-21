@@ -1,0 +1,1 @@
+INSERT INTO TimeofLFFlag_LF2 (HID, ISO_time, LSFlag_LF2) VALUES (6,"60/09/10 06:00:00","X");
